@@ -3,8 +3,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Práctica 10, 11 y 12 HTML</title>
-    <link href="practica10.css" rel="stylesheet" type="text/css">
+    <title>Práctica 13 HTML5</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
     <script type="text/javascript">
 function MM_swapImgRestore() { //v3.0
   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
@@ -27,54 +27,51 @@ function MM_swapImage() { //v3.0
   var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
+
     </script>
 </head>
 
 <body onload="MM_preloadImages('boton2.png')">
-    <div class="imagen">
+    <header>
         <img src="portada.png" style="width: 100%;" alt="portada" />
-</div> 
+    </header> 
+    <article id="contenido">
+        En esta página web encontrarás las prácticas realizadas a lo largo del semestre 2021-1, así como tambien, un apartado con 
+        la información del alumno que lo ha realizado.
+        Como puede observar, tenemos un pequeño menú de todas las prácticas, una vez seleccionada, mostrará su contenido. 
+    </article>
 
-<div style="width: 60%; float: left;" >
+<aside>
     <p>
-    <div id="practica"> 
-        <a HREF="/Practica 1/practica.html">
-          PRACTICA 1
-        </a>
-    </div>
-    <div id="practica">
-        <a HREF="/Practica 2/vinos.html">
-            PRACTICA 2 y 3 
-        </a>
-    </div>
-    <div id="practica">
-        <a HREF="/Practica 4/Practica4.html">
-           PRACTICA 4 y 5
-        </a>
-    </div>
-    <div id="practica">
-        <a HREF="/Practica 2/practica6.html">
-            PRACTICA 6
-        </a>
-    </div>
-    <div id="practica">
-        <a HREF="/Practica 7/practica7.html">
-            PRACTICA 7 y 8
-        </a>
-    </div>
-    <div id="practica">
-        <a HREF="/Practica 9/practica9.html">
-            PRACTICA 9
-        </a>
-    </div>
-</p> 
-</div>
+        <nav>
+        <a HREF="/Practica 1/practica.html"> PRACTICA 1 </a>
+    </nav>
+    <nav>
+        <a HREF="/Practica 2/vinos.html"> PRACTICA 2 y 3 </a>
+    </nav>
+    <nav>
+        <a HREF="/Practica 4/Practica4.html"> PRACTICA 4 y 5 </a>
+    </nav>
+    <nav>
+        <a HREF="/Practica 2/practica6.html"> PRACTICA 6 </a>
+    </nav>
+    <nav>
+        <a HREF="/Practica 7/practica7.html"> PRACTICA 7 y 8 </a>
+    </nav>
+    <nav>
+        <a HREF="/Practica 9/practica9.html"> PRACTICA 9 </a>
+    </nav>
+    <nav>
+        <a HREF="/Practica 10/Index.html"> PRACTICA 10, 11 y 12 </a>
+        </nav>
+    </p> 
+</aside>
 
-<div class="completo">
-    <div id="acerca" >
-       <p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('boton2','','boton2.png',1)"><img src="boton.png" alt="boton" name="boton2" style="width: 100%;" border="0" id="boton2" /></a></p>
-    </div> 
-    <div id="info" style="visibility:hidden" >
+<section>
+    <article id="acerca" >
+        <a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('boton2','','boton2.png',1)"><img src="boton.png" alt="boton" name="boton2" style="width: 100%;" border="0" id="boton2" /></a>
+    </article> 
+    <article id="info" style="visibility:hidden">
         <h3> Nombre: Alejandra Navarrete Muñoz</h3>
         <h3> Matricula: 1169416</h3>
         <h3> Lic. en Sistemas Computacionales</h3>
@@ -83,8 +80,8 @@ function MM_swapImage() { //v3.0
         <h3> Pasatiempos: Hacer ejercicio, ver peliculas</h3>
         <h3> Comida Favorita: Chilaquiles, discada</h3>
         
-    </div>
-</div>
+    </article>
+</section>
     <script>
         function mostrar(){
             var datos = document.getElementById("info");
@@ -100,5 +97,9 @@ function MM_swapImage() { //v3.0
         datos.onmouseout = ocultar;
         datos.onmouseover = mostrar;
       </script>
+
+      <footer>
+          <p>Elaborado por Alejandra Navarrete Muñoz</p>
+      </footer>
 </body>
 </html>
