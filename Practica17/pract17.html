@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> PRACTICA 17</title>
+        <link href="practica7.css" rel="stylesheet" type="text/css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1> FORMULARIO </h1>
+        <div class="formulario">
+            <img src="sobre.jpg" width="900px" height="600px">
+            <div class="arriba">
+                <form name="formulario" method="POST" action="info.php">
+                    <label>
+                        NOMBRE:
+                        <span id="requerido"> (requerido).</span> <br>
+                    </label>
+                    <input type="text" name="nombre"> <br> <br>
+                    <br> <br> <br> <br>
+                    <label>
+                        E-MAIL:
+                        <span id="requerido"> (requerido).</span> <br>
+                    </label>
+                    <input type="text" name="email"> <br> <br>
+                    <br> <br> <br> <br><br> 
+                    <label>
+                        ASUNTO:
+                        <span id="requerido"> (requerido).</span> <br>
+                    </label>
+                    <input type="text" name="asunto"> <br><br>         
+            </div>
+            <div class="mensaje">
+                    <label>
+                        MENSAJE:
+                        <span id="requerido"> (requerido).</span> <br>
+                    </label>
+                    <textarea name="area" rows="15" cols="40"></textarea>
+                    <br> <br> <br> <br>
+            </div>
+            <div class="envio">
+                    <input class="boton" type="submit" name="boton" value="Enviar Mensaje">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

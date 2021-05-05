@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+body{
+    text-align: center;
+}
+
+#requerido{
+    color: red;
+}
+
+.formulario{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.arriba{
+    position: absolute;
+    top: 180px;
+    left: 200px;
+}
+
+.mensaje{
+    position: absolute;
+    top: 180px;
+    left: 450px;
+}
+
+.envio{
+    position: absolute;
+    top: 500px;
+    left: 650px;
+}
+
+.boton{
+    color: white;
+    background-color: blue;
+    width: 120px;
+    height: 40px;
+}
