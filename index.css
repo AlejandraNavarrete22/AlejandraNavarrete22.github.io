@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+BODY{
+    height: 500px;
+    background: linear-gradient(#98F6E6,#62988F);
+}
+header{
+    text-align: center;
+    opacity: .5;
+}
+
+aside{
+    width: 60%; 
+    float: left;
+}
+
+#contenido{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+#acerca{
+    position: relative;
+    margin:0px auto;
+    width: 40%;
+}
+
+#acerca::after{
+    content: '';
+    display: flex;
+}
+
+#info {
+    margin: 0px auto;
+    background-color:#0099FF;
+    position:relative;
+    width: 75%;
+    opacity: .6;
+    visibility:hidden
+}
+
+#info::after{
+    content: '';
+    display: flex;
+    
+}
+
+section{
+    position: relative;
+    float: right;
+    text-align: center;
+    width: 40%;
+}
+
+section:after {
+    content: '';
+    display: flex;
+  }
+
+nav{
+    width: 160px;
+    height: 30px;
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    border: 3px solid;
+    border-color: #1C7564;
+    text-align: center;
+}
+
+nav:hover{
+    border-color: black;
+    transform:scale(1.2,1);
+}
+
+A{
+    color: #4D6D67;
+    text-decoration: none;
+}
+a:hover{
+	color: white;
+}
+
+footer{
+    display: block;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-right: 2em;
+    margin-left: 2em;
+}

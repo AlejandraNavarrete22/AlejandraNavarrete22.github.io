@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> D beauty </title>
+        <link href="proyecto.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="logo/png" href="logo1.png" />
+        <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+        </script>
+    </head>
+    <body onLoad="MM_preloadImages('logoface.png','insta.png','imagen5.png','imagen8.png','imagen12.png','imagen10.png')">
+        <header>
+            <a href="https://www.facebook.com/blumentinonav" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('btn_face','','logoface.png',1)">
+            <img src="logoface.png" alt="logoface" name="btn_face" style="margin-right: 20px; margin-top: 5px;"></a> 
+            <a href="https://www.instagram.com/dbeauty_nav/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('insta','','insta.png',1)">
+            <img src="insta.png" alt="btn_insta" name="insta"  style="margin-right: 20px; margin-top: 5px;"></a>   
+        </header>
+        
+         <nav>
+            <img src="banner1.png" width="100%" style="opacity: .7;">
+        </nav>
+        <p class="nuestro"> <b>  Nuestros Productos </b> 
+            <hr noshade="noshade" size="10">
+          </p>
+          <p class="parrafo">
+            Consiente tu rostro un momento, y revisa la variedad de productos que tenemos disponibles para tí.
+        </p>
+        <section class="clase">
+            <figure>
+              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('imagen1','','imagen5.png',1)">
+                <img src="imagen6.png" width="48%" name="imagen1"> </a>
+                <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagen10.png',1)">
+                  <img src="imagen11.png" name="Image9" width="48%"></a> 
+                <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('imagen3','','imagen8.png',1)">
+                <img src="imagen7.png" width="48%" name="imagen3"></a>
+                <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('imagen5','','imagen12.png',1)">
+                <img src="imagen9.png" name="imagen5" width="48%" ></a>
+            </figure>
+
+            <article>
+              <video width="89%" controls>
+                <source src="skincare.mp4" type="video/mp4">
+              </video>
+            </article>
+          </section>
+         
+        <aside class="gif">
+            <img src="imagencambio.gif" width="80%">
+        </aside>
+        
+        <aside class="kit">
+         <h5> NUEVO KIT  <br>
+          Mascarilla de tela, parche para labios y par de parches para los ojos.
+        </h5> 
+          <img src="imagen13.png" border="2" width="80%">
+        </aside>
+
+        <section class="seccion">
+          <p class="nuestro"> <b>  ¿Quiénes Somos? </b> 
+            <hr noshade="noshade" size="10">  
+          </p>
+          <article class="altura">
+          <div class="area">
+            <p>
+            D´beauty somos un pequeño negocio que te brinda productos para el cuidado de tu rostro, esto con la finalidad de que te consientas
+            un momento y disfrutes de una enorme hidratación y cuidado de la piel. <br><br>
+            <b> Horario Disponible <br> </b>
+            <ul> Lunes a Viernes: 9:00 am - 8:00 pm <br>
+            Sábado y Domingo: 12:00 pm - 6:00 pm <br> </ul>
+            <b> Envíos Nacionales </b> <br>
+            <ul> Para más información, póngase en contacto con nosotros</ul>
+            </p>
+          </div>
+          <div class="imagen">
+            <img src="skincare.png" width="60%">
+          </div>
+          </article>
+        </section>
+
+        <footer class="foot">
+          &copy; Copyright 2021 @Dbeauty
+        </footer> 
+    </body>
+</html>
